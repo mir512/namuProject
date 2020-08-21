@@ -9,11 +9,11 @@ public interface NoticeMapper {
 
 	public List<NoticeVO> getList();
 	public List<NoticeVO> getListWithPaging(Criteria cri);
-	public void insert(NoticeVO board);
-	public void insertSelectKey(NoticeVO board);
+	public void insert(NoticeVO notice);
+	public void insertSelectKey(NoticeVO notice);
 	public NoticeVO read(Long bno);
 	public int delete(Long bno);
-	public int update(NoticeVO board);
+	public int update(NoticeVO notice);
 	public int getTotalCount(Criteria cri);
 	
 }
