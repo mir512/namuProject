@@ -1424,7 +1424,7 @@ ul.pagination {
         background-color: #66CC00;
         color: #ffffff !important; }
         ul.pagination li > .page.active:hover {
-          background-color: #f67878; }
+          background-color: #3C9E66; }
         ul.pagination li > .page.active:active {
           background-color: #f45c5c; }
     ul.pagination li:first-child {
@@ -1561,7 +1561,7 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: #3C9E66; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,

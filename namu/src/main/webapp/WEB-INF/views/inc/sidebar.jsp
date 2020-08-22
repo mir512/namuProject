@@ -17,8 +17,8 @@
 				<h2>Menu</h2>
 			</header>
 			<ul>
-				<li><a href="#">Homepage</a></li>
-				<li><a href="#">Notice</a></li>
+				<li><a href="/home">Homepage</a></li>
+				<li><a href="/notice/list">Notice</a></li>
 				<li><span class="opener">Lecture</span>
 					<ul>
 						<li><a href="#">재테크</a></li>
@@ -31,7 +31,7 @@
 				<li><span class="opener">Community</span>
 					<ul>
 						<li><a href="#">강연후기</a></li>
-						<li><a href="#">자유게시판</a></li>
+						<li><a href="/board/list">자유게시판</a></li>
 					</ul></li>
 				<li><span class="opener">Mypage</span>
 					<ul>
@@ -81,10 +81,9 @@
 				aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus
 				aliquam.</p>
 			<ul class="contact">
-				<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-				<li class="icon solid fa-phone">(000) 000-0000</li>
-				<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-					Nashville, TN 00000-0000
+				<li class="icon solid fa-envelope"><a href="#">information@namu.com</a></li>
+				<li class="icon solid fa-phone">(02) 1234-5678</li>
+				<li class="icon solid fa-home">서울특별시 강남구 역삼동 테헤란로 132
 				</li>
 			</ul>
 		</section>

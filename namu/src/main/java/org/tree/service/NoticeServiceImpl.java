@@ -24,9 +24,9 @@ public class NoticeServiceImpl implements NoticeService {
 	}
 
 	@Override
-	public NoticeVO get(Long bno) {
+	public NoticeVO get(Long n_code) {
 		log.info("> notice get....");
-		return mapper.read(bno);
+		return mapper.read(n_code);
 	}
 
 	@Override
@@ -36,9 +36,9 @@ public class NoticeServiceImpl implements NoticeService {
 	}
 
 	@Override
-	public boolean remove(Long bno) {
+	public boolean remove(Long n_code) {
 		log.info("> notice remove....");
-		return mapper.delete(bno) == 1;
+		return mapper.delete(n_code) == 1;
 	}
 
 	@Override

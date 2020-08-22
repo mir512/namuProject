@@ -27,12 +27,22 @@
 				</tr>
 			</c:forEach>
 			</tbody>
-			<tfoot>
-				<tr>
-					<td colspan="2"></td>
-					<td>100.00</td>
-				</tr>
-			</tfoot>
 		</table>
+	</div>
+	<div align="center">
+		<ul class="pagination">
+			<c:if test="${pageMaker.prev}">
+				<li><a href="${pageMaker.startPage-1}" class="button">Previous</a></li>
+			</c:if>
+			<c:forEach var="num" begin="${pageMaker.startPage}" end="${pageMaker.endPage}">
+				<li><a href="${num}" class="page">${num}</a></li>
+			</c:forEach>
+			<c:if test="${pageMaker.next}">
+				<li><a href="${pageMaker.endPage+1}" class="button">Next</a></li>
+			</c:if>
+		</ul>
+	</div>
+	<div align="right">
+		<a href="/notice/new" class="button primary">Write</a>
 	</div>
 </div>
